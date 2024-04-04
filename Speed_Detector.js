@@ -1,8 +1,11 @@
+let speed= prompt('ENTER SPEED:')
+
 // This function calculates demerit points for a car speed based in excess of the prescribed speed limit by 5 km/h.
-function calculateDemeritePoints(speed) {
+function calculateDemeritePoints() {
 const speedLimit =70;
 const kmPerDemerit =5;
 const maxpoints = 12;
+
 //Check if the speed limit is less or equal to the desired speed limit
 if (speed <= speedLimit) {
     return 'Okay';
@@ -22,5 +25,5 @@ if (speed <= speedLimit) {
     }
 }
 
-//Example.usage
+//Exampleusage
 console.log(calculateDemeritePoints(speed));
