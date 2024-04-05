@@ -23,7 +23,7 @@ Git
 ```
 
 # Live Link
-
+https://eliud305koome.github.io/PHASE_1-WK1-Code-Challenge/
 
 ## Technologies used
 HTML
